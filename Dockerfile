@@ -6,7 +6,7 @@ MAINTAINER Viton Vitanis <viton.vitanis@gmail.com>
 USER root
 
 # Spark dependencies
-ENV APACHE_SPARK_VERSION 1.5.1
+ENV APACHE_SPARK_VERSION 1.5.2
 RUN apt-get -y update && \
     apt-get install -y --no-install-recommends openjdk-7-jre-headless && \
     apt-get clean
